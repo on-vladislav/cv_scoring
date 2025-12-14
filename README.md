@@ -14,14 +14,14 @@
 ---
 
 ## 📁 Структура проекта
-cv_scoring/
-├── streamlit_app.py
-├── parse_hh.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .streamlit/
-│ └── secrets.toml.example
+cv_scoring/  
+├── streamlit_app.py  
+├── parse_hh.py  
+├── requirements.txt  
+├── README.md  
+├── .gitignore  
+├── .streamlit/  
+│ └── secrets.toml.example  
 └── venv/ # локально, не хранится в GitHub
 
 
