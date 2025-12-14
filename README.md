@@ -30,7 +30,7 @@ cv_scoring/
 ## 🛠 Установка и запуск
 
 ### 1️⃣ Клонировать репозиторий
-```bash
+
 git clone https://github.com/USERNAME/cv_scoring.git
 cd cv_scoring
 
