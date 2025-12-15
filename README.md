@@ -38,24 +38,21 @@ cd cv_scoring
 python -m venv venv
 
 ### 3️⃣ Активировать окружение
-Windows (PowerShell):
-    .\venv\Scripts\Activate.ps1
-Windows (CMD):
-    venv\Scripts\activate
-macOS / Linux:
-    source venv/bin/activate
+Windows (PowerShell):  
+`.\venv\Scripts\Activate.ps1`  
+Windows (CMD):  
+`venv\Scripts\activate`    
+macOS / Linux:  
+`source venv/bin/activate`
 
-### 4️⃣ Установить зависимости
+### 4️⃣ Установить зависимости  
     pip install -r requirements.txt
 
 ### 5️⃣ Настроить OpenAI API ключ
 
-1. Перейди в папку .streamlit
-2. Скопируй файл:
-    cp secrets.toml.example secrets.toml
-(в Windows можно просто скопировать через проводник)
-3. Вставь свой ключ OpenAI:
-    OPENAI_API_KEY="sk-..."
+1. Перейди в папку ***.streamlit***
+2. Скопируй файл: ***cp secrets.toml.example secrets.toml*** (в Windows можно просто скопировать через проводник)
+3. Вставь свой ключ OpenAI: ***OPENAI_API_KEY="sk-..."***
 
 ### 6️⃣ Запустить приложение
     streamlit run streamlit_app.py
